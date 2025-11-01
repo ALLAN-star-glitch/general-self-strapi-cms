@@ -447,8 +447,7 @@ export interface ApiFeaturedProjectFeaturedProject
       Schema.Attribute.Private;
     description: Schema.Attribute.Blocks & Schema.Attribute.Required;
     featuredImage: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
+      'images' | 'files' | 'videos' | 'audios'
     > &
       Schema.Attribute.Required;
     githubUrl: Schema.Attribute.String;
